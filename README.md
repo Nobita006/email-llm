@@ -6,6 +6,10 @@ This project demonstrates an AI-powered agent built using Amazon Bedrock. The ag
 
 
 
+https://github.com/user-attachments/assets/5fe5605b-2c22-4070-8076-32d127e792b2
+
+
+
 
 ## Project Overview
 
