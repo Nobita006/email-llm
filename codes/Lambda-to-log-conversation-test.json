@@ -1,0 +1,33 @@
+{
+  "messageVersion": "1.0",
+  "actionGroup": {
+    "actionGroupName": "ConversationLoggerGroup", 
+    "apiPath": "/logTurn", 
+    "httpMethod": "POST" 
+  },
+  "requestBody": {
+    "application/json": {
+      "properties": [
+        {
+          "name": "textToLog",
+          "type": "string", 
+          "value": "This is a sample user question for testing the logger."
+        },
+        {
+          "name": "conversationId",
+          "type": "string",
+          "value": "conv_001" 
+        },
+        {
+          "name": "logType",
+          "type": "string",
+          "value": "user_question" 
+        }
+      ]
+    }
+  },
+  "sessionAttributes": {
+      "sessionIdFromAgent": "test_conv_001" 
+  },
+  "promptSessionAttributes": {}
+}

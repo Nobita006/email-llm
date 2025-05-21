@@ -1,0 +1,29 @@
+{
+  "messageVersion": "1.0",
+  "actionGroup": {
+    "actionGroupName": "YourActionGroupNameHere",
+    "apiPath": "/archiveEmails", 
+    "httpMethod": "POST"
+  },
+  "requestBody": {
+    "application/json": {
+      "properties": [
+        {
+          "name": "s3_uris",
+          "type": "array", 
+          "value": [
+            "s3://email-llm-s3-bucket/20180501_114336_Welcome aboard, Sayan Das! See what else_010001631b83db0b-93c7bb32-a638-40c7-9a42-ced4f673e38f-000000_at_email..txt",
+            "s3://email-llm-s3-bucket/20181103_205639_One Time Password (OTP) for NEET (UG) -_9b7f1c$6m10vb_at_relayin.nic.in.txt"
+          ]
+        },
+        {
+          "name": "query_context",
+          "type": "string",
+          "value": "test_project_beta_archive"
+        }
+      ]
+    }
+  },
+  "sessionAttributes": {},
+  "promptSessionAttributes": {}
+}
